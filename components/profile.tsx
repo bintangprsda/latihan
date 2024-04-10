@@ -2,7 +2,7 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200/80 bg-white p-4">
+    <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200/80 bg-white p-9">
       {/* Avatar Container */}
       <div className="relative mb-4">
         {/* User Avatar */}
@@ -18,21 +18,21 @@ const Profile = () => {
       <a
         href="https://github.com/EgoistDeveloper/"
         target="_blank"
-        className="text-lg font-semibold mb-2"
+        className="flex items-center text-lg font-semibold mb-2"
       >
-        Bintang Persada Alam
-      </a>
+        <span className="mr-2">Bintang Persada Alam</span>
 
-      {/* User Verified */}
-      <svg
-        className="h-5 fill-blue-400 mb-2"
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-      >
-        <path d="M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z" />
-      </svg>
+        {/* User Verified */}
+        <svg
+          className="h-5 fill-blue-400"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path d="M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z" />
+        </svg>
+      </a>
 
       {/* Badges (Role, Location, Email) */}
       <div className="flex flex-wrap justify-center mb-4">
@@ -77,10 +77,11 @@ const Profile = () => {
             height="24"
             viewBox="0 0 24 24"
           >
-            <path d="M12,15C12.81,15 13.5,14.7 14.11,14.11C14.7,13.5 15,12.81 15,12C15,11.19 14.7,10.5 14.11,9.89C13.5,9.3 12.81,9 12,9C11.19,9 10.5,9.3 9.89,9.89C9.3,10.5 9,11.19 9,12C9,12.81 9.3,13.5 9.89,14.11C10.5,14.7 11.19,15 12,15M12,2C14.75,2 17.1,3 19.05,4.95C21,6.9 22,9.25 22,12V13.45C22,14.45 21.65,15.3 21,16C20.3,16.67 19.5,17 18.5,17C17.3,17 16.31,16.5 15.56,15.5C14.56,16.5 13.38,17 12,17C10.63,17 9.45,16.5 8.46,15.54C7.5,14.55 7,13.38 7,12C7,10.63 7.5,9.45 8.46,8.46C9.45,7.5 10.63,7 12,7C13.38,7 14.55,7.5 15.54,8.46C16.5,9.45 17,10.63 17,12V13.45C17,13.86 17.16,14.22 17.46,14.53C17.76,14.84 18.11,15 18.5,15C18.92,15 19.27,14.84 19.57,14.53C19.87,14.22 20,13.86 20,13.45V12C20,9.81 19.23,7.93 17.65,6.35C16.07,4.77 14.19,4 12,4C9.81,4 7.93,4.77 6.35,6.35C4.77,7.93 4,9.81 4,12C4,14.19 4.77,16.07 6.35,17.65C7.93,19.23 9.81,20 12,20H17V22H12C9.25,22 6.9,21 4.95,19.05C3,17.1 2,14.75 2,12C2,9.25 3,6.9 4.95,4.95C6.9,3 9.25,2 12,2Z" />
+            <path d="M20,4H4C2.9,4 2,4.9 2,6V18C2,19.1 2.9,20 4,20H20C21.1,20 22,19.1 22,18V6C22,4.9 21.1,4 20,4M20,6V9.58L12,14L4,9.58V6H20M4,18V11.26L12,15.74L20,11.26V18H4Z" />
           </svg>
+
           <div className="text-xs text-gray-400/80 hover:text-gray-400">
-            Bintangprsda@gmail.com
+            bintangprsda@gmail.com
           </div>
         </div>
       </div>
